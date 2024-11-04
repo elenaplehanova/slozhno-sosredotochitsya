@@ -22,8 +22,5 @@
     --text-color: #f1b2ce;
     --background-color: #000028;
     --title-color: #db00ff;
-  }
-  .page {
-    background-image: url(/images/cover-image-dark.png);
-  }
+  } 
 }

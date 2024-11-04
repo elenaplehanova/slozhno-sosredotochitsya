@@ -3,7 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   position: relative;
-  background-color: var(--background-color);
+
   font-family: var(--main-font), monospace;
   font-size: 18px;
   background-image: url(/images/cover-image-dark.png);
@@ -12,6 +12,7 @@
   background-size: cover;
   background-attachment: fixed;
   padding-inline: 10px;
+  background-color: var(--background-color);
 }
 
 @media (width >= 768px) {
