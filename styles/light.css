@@ -3,44 +3,6 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-@media (prefers-color-scheme: light) {
-  :root {
-    --accent-color: #ff8dcb;
-    --text-color: #353430;
-    --background-color: #ffc2e6;
-    --title-color: #ffc2e6;
-  }
-  .page {
-    background-image: url(/images/cover-image-light.png);
-  }
-  .header__decoration {
-    display: none;
-  }
-
-  .header__theme-menu-list {
-    color: var(--text-color-light);
-  }
-
-  .decorated-zone::before {
-    border-color: var(--text-color-light);
-  }
-
-  .decorated-zone::after {
-    border-color: var(--text-color-light);
-  }
-
-  .title-decor {
-    color: var(--text-color-light);
-  }
-
-  .content__paragraph {
-    color: var(--text-color-light);
-  }
-
-  .content-section__title {
-    color: var(--text-color-light);
-  }
-}
 
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
@@ -80,4 +42,43 @@
 
 .page.theme_light .content-section__title {
   color: var(--text-color-light);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #ff8dcb;
+    --text-color: #353430;
+    --background-color: #ffc2e6;
+    --title-color: #ffc2e6;
+  }
+  .page {
+    background-image: url(/images/cover-image-light.png);
+  }
+  .header__decoration {
+    display: none;
+  }
+
+  .header__theme-menu-list {
+    color: var(--text-color-light);
+  }
+
+  .decorated-zone::before {
+    border-color: var(--text-color-light);
+  }
+
+  .decorated-zone::after {
+    border-color: var(--text-color-light);
+  }
+
+  .title-decor {
+    color: var(--text-color-light);
+  }
+
+  .content__paragraph {
+    color: var(--text-color-light);
+  }
+
+  .content-section__title {
+    color: var(--text-color-light);
+  }
 }

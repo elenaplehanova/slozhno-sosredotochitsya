@@ -3,17 +3,6 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --accent-color: #ff0070;
-    --text-color: #f1b2ce;
-    --background-color: #000028;
-    --title-color: #db00ff;
-  }
-  .page {
-    background-image: url(/images/cover-image-dark.png);
-  }
-}
 
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
@@ -25,4 +14,16 @@
   --background-color: #000028;
   --title-color: #db00ff;
   background-image: url(/images/cover-image-dark.png);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: #ff0070;
+    --text-color: #f1b2ce;
+    --background-color: #000028;
+    --title-color: #db00ff;
+  }
+  .page {
+    background-image: url(/images/cover-image-dark.png);
+  }
 }

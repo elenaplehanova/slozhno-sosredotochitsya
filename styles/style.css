@@ -87,6 +87,8 @@
   text-transform: lowercase;
   background-color: transparent;
   padding: 1.5px 13px;
+  cursor: pointer;
+  appearance: none;
 }
 .header__theme-menu-button:hover {
   border: 1px solid currentColor;
