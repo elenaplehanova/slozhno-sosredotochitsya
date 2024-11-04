@@ -27,6 +27,30 @@
   background-image: url(/images/cover-image-light.png);
 }
 
-.page.theme_light .header__decoration{
+.page.theme_light .header__decoration {
   display: none;
+}
+
+.page.theme_light .header__theme-menu-list {
+  color: var(--text-color-light);
+}
+
+.page.theme_light .decorated-zone::before {
+  border-color: var(--text-color-light);
+}
+
+.page.theme_light .decorated-zone::after {
+  border-color: var(--text-color-light);
+}
+
+.page.theme_light .title-decor {
+  color: var(--text-color-light);
+}
+
+.page.theme_light .content__paragraph {
+  color: var(--text-color-light);
+}
+
+.page.theme_light .content-section__title {
+  color: var(--text-color-light);
 }
