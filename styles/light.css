@@ -13,7 +13,7 @@
   --text-color: #353430;
   --background-color: #fff1f7;
   --title-color: #ffc2e6;
-  background-image: url(/images/cover-image-light.png);
+  --background-image: url(/images/cover-image-light.png);
 }
 
 .page.theme_light .header__decoration {
@@ -50,7 +50,7 @@
     --text-color: #353430;
     --background-color: #fff1f7;
     --title-color: #ffc2e6;
-    background-image: url(/images/cover-image-light.png);
+    --background-image: url(/images/cover-image-light.png);
   }
   .header__decoration {
     display: none;

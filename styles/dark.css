@@ -13,7 +13,7 @@
   --text-color: #f1b2ce;
   --background-color: #000028;
   --title-color: #db00ff;
-  background-image: url(/images/cover-image-dark.png);
+  --background-image: url(/images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,6 +22,6 @@
     --text-color: #f1b2ce;
     --background-color: #000028;
     --title-color: #db00ff;
-    background-image: url(/images/cover-image-dark.png);
+    --background-image: url(/images/cover-image-dark.png);
   }
 }
