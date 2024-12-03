@@ -73,7 +73,6 @@
 }
 
 .header__theme-menu-button {
-  border: none;
   text-transform: lowercase;
   background-color: transparent;
   padding-inline: 13px;
